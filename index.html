@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>论坛界面</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .forum-title {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .forum-category {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .forum-thread {
+            background-color: white;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        .thread-title {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        .thread-info {
+            font-size: 14px;
+            color: #666;
+        }
+        .thread-content {
+            margin-top: 10px;
+        }
+        /* 响应式设计：手机界面 */
+        @media (max-width: 768px) {
+            .forum-thread {
+                padding: 5px;
+            }
+            .thread-title {
+                font-size: 16px;
+            }
+            .thread-info {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="forum-title">论坛首页</h1>
+    
+    <div class="forum-category">
+        <h2>讨论区</h2>
+    </div>
+    
+    <div class="forum-thread">
+        <div class="thread-title">广播稿</div>
+        <div class="thread-info">作者: 皮卡皮卡 | 发布时间: 2024-06-14 | 浏览: 436721次</div>
+        <div class="thread-content">
+            <a href="https://abcd136.github.io/b4/">公告</a>
+        </div>
+    </div>
+    
+    <!-- 更多主题帖子可以按照上面的格式添加 -->
+</body>
+</html>
